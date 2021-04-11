@@ -25,9 +25,9 @@ So far the developer expereicne is more than good I could say.
 
 ### The good things:
 - The claims about the 100% interopoability of composables is correct. All the composables are in the common module. Kotlin-multiplatform now it's more than sharing of the business logic and utility
-- No project setup bullsh** (KotlinJS devs will understand) but don't use the project wizard in Intillij clone the template from the [official repo](https://github.com/JetBrains/compose-jb/blob/master/templates/multiplatform-template) instead.
+- No project setup bullsh** (KotlinJS devs will understand) but don't use the project wizard in Intillij, clone the template from the [official repo](https://github.com/JetBrains/compose-jb/blob/master/templates/multiplatform-template) instead.
 
 ### The challenges: (I won't say bad because Compose still work in progrees and things will change)
-- As my app deals with images. Compose only understands `ImageBitmap` and `Painter`. Let's ignore `Painter` cause it's only available on Android. `ImageBitmap` it's the shared interface between the desktop and Android. The problem that I had to make different implementation for each platform because Compose is unaware of the platform that it runs on. So it's the develeper job to cast the `ImageBitmap` to `AndroidImageBitmap` or `DesktopImageBitmap`. I have ended up being not able to share the functions that perform the image processing algorithms which IMO agains the idea of Kotlin-Multiplatform
+- As my app deals with images. Compose only understands `ImageBitmap` and `Painter`. Let's ignore `Painter` cause it's only available on Android. `ImageBitmap` it's the shared interface between the desktop and Android. The problem that I had to make different implementation for each platform because Compose is unaware of the platform that it runs on. So it's the develeper job to cast the `ImageBitmap` to `AndroidImageBitmap` or `DesktopImageBitmap`. I have ended up being not able to share the functions that perform the image processing algorithms which IMO againsy the idea of Kotlin-Multiplatform
 - On desktop `DesktopImageBitmap` doesn't offer you methods to mutate it. You will have to create BufferedImage to be able to process the pixels of the image. 
 
