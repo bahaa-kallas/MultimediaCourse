@@ -20,7 +20,7 @@ As part of the course ITEN3304 at UOK (University of Kalamoon). We have been ask
 In the beggining I wasn't going to use Kotlin instead I planned to build a simple windows forms application with C# but Jetbrains [announcement](https://blog.jetbrains.com/cross-post/jetpack-compose-for-desktop-milestone-1-released/) changed my mind. I am very interested in Jetpack Compose and following the progress since it was in alpha stage on Android and the fact that it's now available on desktop (and in the browser soon) forced me to give at a shot. Also I really wanted to test myself the 100% interopoability of composables and whether I'll be able to share the UI composables as-is without making any adjustments or some minor changes. Initilly I was a little bit scared of the multiplatform hassle because I expected that there will be a lot of project setup issues (as usual when it comes to Jetbrains) so I have built my project using compose for desktop only. But now in this repo it's becoming a multiplatform project
 
 
-## My Expereicne 
+## My Experience 
 So far the developer expereicne is more than good I could say. 
 
 ### The good things:
