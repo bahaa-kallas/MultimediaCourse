@@ -1,5 +1,5 @@
 # Multimedia Systems(ITEN3304)
-As part of the course ITEN3304 at UOK (University of Kalamoon). We have been asked to create an application on any platform using any programming language to apply the theortical concepts that has been taught taught during the course
+As part of the course ITEN3304 at UOK (University of Kalamoon). We have been asked to create an application on any platform using any programming language to apply the theortical concepts that has been taught during the course
 
 ## The Course Covers:
 - Image processing basic algorithms
